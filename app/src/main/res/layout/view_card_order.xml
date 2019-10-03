@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/img_laundry"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/no-image"/>
+
+        <TextView
+            android:id="@+id/tv_name_laundry"
+            android:layout_toEndOf="@id/img_laundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/name_profile"/>
+
+        <TextView
+            android:id="@+id/tv_desc_status"
+            android:layout_below="@id/tv_name_laundry"
+            android:layout_toEndOf="@id/img_laundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            android:text="@string/dummy_address"/>
+
+        <LinearLayout
+            android:id="@+id/linear_status"
+            android:layout_below="@id/tv_desc_status"
+            android:layout_toEndOf="@id/img_laundry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round_button_second">
+
+            <ImageView
+                android:id="@+id/img_dijemput"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_bike_purple"/>
+
+            <ImageView
+                android:id="@+id/img_dicuci"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_wash_black"/>
+
+            <ImageView
+                android:id="@+id/img_diantar"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_wear_black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_tanya"
+            android:layout_below="@id/linear_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/tanyakan_sesuatu"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText"
+            android:background="@drawable/round_button_second"/>
+
+
+        <Button
+            android:id="@+id/btn_selseai"
+            android:layout_below="@id/btn_tanya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/selesai"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/round_button_primary"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

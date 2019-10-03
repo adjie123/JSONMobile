@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">JSON</string>
+    <string name="verify_phone_number">Verify your phone number</string>
+    <string name="intruksi1">Json akan mengirimakan anda pesan SMS untuk verifikasi nomor handphone anda. Masukan kode negara dan nomer handphone anda</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="intruksi2">Silahkan masukan nama, foto profile dan alamat anda</string>
+    <string name="intruksi3">Tunggu untuk otomatis mendeteksi kiriman SMS ke</string>
+    <string name="verify">Verify</string>
+    <string name="number_dummy">+62 895 368578284</string>
+    <string name="verify_number">Verifikasi Nomer Anda</string>
+    <string name="number_wrong">Nomer Salah ?</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="resend_code">Kirim Ulang Kode</string>
+    <string name="name_profile">Name Profile</string>
+    <string name="dummy_address">Jl. HS.Ronggo Waluyo, Puseurjaya, Kec. Telukjambe Tim., Kabupaten Karawang, Jawa Barat 41361</string>
+    <string name="rating">Rating</string>
+    <string name="worked">Worked</string>
+    <string name="distance">Distance</string>
+    <string name="tanyakan_sesuatu">Tanyakan Sesuatu</string>
+    <string name="selesai">Selesai</string>
 </resources>
