@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_touch"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/order_in"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="@string/intruksi4"/>
+    
+    <Button
+        android:id="@+id/btn_ambil_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ambil"
+        android:textAllCaps="false"
+        android:paddingStart="100dp"
+        android:paddingEnd="100dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_button_primary"/>
+
+    <Button
+        android:id="@+id/btn_cancel_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="@string/ambil"
+        android:textAllCaps="false"
+        android:paddingStart="100dp"
+        android:paddingEnd="100dp"
+        android:background="@drawable/round_button_second"/>
+
+</LinearLayout>
