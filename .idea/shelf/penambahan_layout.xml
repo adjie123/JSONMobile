@@ -1,0 +1,19 @@
+<changelist name="penambahan_layout" date="1570331758306" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/penambahan_layout/shelved.patch" />
+  <option name="DESCRIPTION" value="penambahan layout" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="app/src/main/res/drawable/ic_offline.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/penambahan_layout/ic_offline.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="app/src/main/res/drawable/ic_online.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/penambahan_layout/ic_online.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="app/src/main/res/drawable/ic_touch.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/penambahan_layout/ic_touch.png" />
+  </binary>
+</changelist>

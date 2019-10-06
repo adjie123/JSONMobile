@@ -1,0 +1,684 @@
+Index: app/src/main/res/drawable/ic_home_purple.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_home_purple.xml	(date 1570331564473)
++++ app/src/main/res/drawable/ic_home_purple.xml	(date 1570331564473)
+@@ -0,0 +1,5 @@
++<vector android:height="24dp" android:tint="#AE77E7"
++    android:viewportHeight="24.0" android:viewportWidth="24.0"
++    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="#FF000000" android:pathData="M10,20v-6h4v6h5v-8h3L12,3 2,12h3v8z"/>
++</vector>
+Index: app/src/main/res/layout/view_salary.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/view_salary.xml	(date 1570331332537)
++++ app/src/main/res/layout/view_salary.xml	(date 1570331332537)
+@@ -0,0 +1,58 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++
++    <LinearLayout
++        android:id="@+id/linear_desc"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="25dp"
++        android:layout_marginEnd="25dp"
++        android:layout_centerInParent="true"
++        android:orientation="horizontal"
++        android:background="@android:color/white">
++
++        <LinearLayout
++            android:layout_width="0dp"
++            android:layout_height="wrap_content"
++            android:layout_weight="1"
++            android:gravity="center"
++            android:orientation="vertical">
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="@string/selsai"/>
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:textStyle="bold"
++                android:textSize="20dp"
++                android:text="8"/>
++        </LinearLayout>
++        <LinearLayout
++            android:layout_width="0dp"
++            android:layout_height="wrap_content"
++            android:layout_weight="3"
++            android:background="@color/colorPrimary"
++            android:gravity="center"
++            android:orientation="vertical">
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:textColor="@android:color/white"
++                android:text="@string/pendapatan"/>
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:textStyle="bold"
++                android:textColor="@android:color/white"
++                android:textSize="20dp"
++                android:text="1200000"/>
++        </LinearLayout>
++
++    </LinearLayout>
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/res/drawable/ic_account_circle_purple.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_account_circle_purple.xml	(date 1570331669727)
++++ app/src/main/res/drawable/ic_account_circle_purple.xml	(date 1570331669727)
+@@ -0,0 +1,5 @@
++<vector android:height="24dp" android:tint="#AE77E7"
++    android:viewportHeight="24.0" android:viewportWidth="24.0"
++    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="#FF000000" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,5c1.66,0 3,1.34 3,3s-1.34,3 -3,3 -3,-1.34 -3,-3 1.34,-3 3,-3zM12,19.2c-2.5,0 -4.71,-1.28 -6,-3.22 0.03,-1.99 4,-3.08 6,-3.08 1.99,0 5.97,1.09 6,3.08 -1.29,1.94 -3.5,3.22 -6,3.22z"/>
++</vector>
+Index: app/src/main/res/drawable/ic_history_purple.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_history_purple.xml	(date 1570331619010)
++++ app/src/main/res/drawable/ic_history_purple.xml	(date 1570331619010)
+@@ -0,0 +1,5 @@
++<vector android:height="24dp" android:tint="#AE77E7"
++    android:viewportHeight="24.0" android:viewportWidth="24.0"
++    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="#FF000000" android:pathData="M4,10.5c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM4,4.5c-0.83,0 -1.5,0.67 -1.5,1.5S3.17,7.5 4,7.5 5.5,6.83 5.5,6 4.83,4.5 4,4.5zM4,16.5c-0.83,0 -1.5,0.68 -1.5,1.5s0.68,1.5 1.5,1.5 1.5,-0.68 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM7,19h14v-2L7,17v2zM7,13h14v-2L7,11v2zM7,5v2h14L21,5L7,5z"/>
++</vector>
+Index: app/src/main/java/com/example/json/EditProfileActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/json/EditProfileActivity.java	(date 1570326603071)
++++ app/src/main/java/com/example/json/EditProfileActivity.java	(date 1570326603071)
+@@ -0,0 +1,13 @@
++package com.example.json;
++
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++
++public class EditProfileActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_edit_profile);
++    }
++}
+Index: app/src/main/res/layout/activity_edit_profile.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_edit_profile.xml	(date 1570327756620)
++++ app/src/main/res/layout/activity_edit_profile.xml	(date 1570327756620)
+@@ -0,0 +1,144 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_centerInParent="true"
++    android:background="@drawable/bg_splash"
++    android:layout_width="match_parent" android:layout_height="match_parent">
++
++
++    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
++        android:id="@+id/profile_image"
++        android:layout_width="100dp"
++        android:layout_height="100dp"
++        android:layout_centerHorizontal="true"
++        android:layout_marginTop="50dp"
++        android:src="@drawable/address"
++        app:civ_border_color="#FF000000"
++        app:civ_border_width="2dp" />
++
++    <TextView
++        android:id="@+id/tv_name_profile"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_below="@id/profile_image"
++        android:layout_marginTop="8dp"
++        android:layout_centerHorizontal="true"
++        android:textColor="@android:color/white"
++        android:textSize="16sp"
++        android:layout_marginBottom="25dp"
++        android:text="@string/name_profile"/>
++
++    <LinearLayout
++        android:id="@+id/linear_desc"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="25dp"
++        android:layout_marginEnd="25dp"
++        android:layout_below="@id/tv_name_profile"
++        android:orientation="vertical"
++        android:background="@drawable/round_profile">
++
++
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_gravity="center"
++            android:textSize="18sp"
++            android:layout_marginTop="20dp"
++            android:layout_marginBottom="20dp"
++            android:textStyle="bold"
++            android:text="@string/user_profile"/>
++
++
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginTop="8dp"
++                android:layout_marginStart="15dp"
++                android:layout_marginEnd="15dp"
++                android:orientation="vertical">
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:text="@string/username"
++                    android:layout_marginStart="5dp"
++                    android:textStyle="bold"
++                    android:textColor="@color/colorText"
++                    android:textSize="16sp"/>
++
++                <EditText
++                    android:id="@+id/edt_username"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content"
++                    android:padding="8dp"
++                    android:background="@drawable/round_edittext"/>
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginTop="8dp"
++                android:layout_marginStart="15dp"
++                android:layout_marginEnd="15dp"
++                android:orientation="vertical">
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:text="@string/mobile_number"
++                    android:textStyle="bold"
++                    android:layout_marginStart="5dp"
++                    android:textColor="@color/colorText"
++                    android:textSize="16sp"/>
++
++                <EditText
++                    android:id="@+id/edt_number"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content"
++                    android:padding="8dp"
++                    android:background="@drawable/round_edittext"/>
++            </LinearLayout>
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginTop="8dp"
++            android:layout_marginStart="15dp"
++            android:layout_marginEnd="15dp"
++            android:orientation="vertical">
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="@string/email"
++                android:textStyle="bold"
++                android:layout_marginStart="5dp"
++                android:textColor="@color/colorText"
++                android:textSize="16sp"/>
++
++            <EditText
++                android:id="@+id/edt_email"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:padding="8dp"
++                android:background="@drawable/round_edittext"/>
++        </LinearLayout>
++
++        <Button
++            android:id="@+id/btn_submit_edit"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginStart="15dp"
++            android:layout_marginEnd="15dp"
++            android:layout_marginBottom="15dp"
++            android:layout_gravity="center"
++            android:background="@drawable/round_button_primary"
++            android:text="@string/edit_profile"
++            android:textColor="@android:color/white"
++            android:textAllCaps="false"
++            android:layout_marginTop="25dp"/>
++
++    </LinearLayout>
++
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/dialog_order_in.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/dialog_order_in.xml	(date 1570328597018)
++++ app/src/main/res/layout/dialog_order_in.xml	(date 1570328597018)
+@@ -0,0 +1,57 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <ImageView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="15dp"
++        android:layout_gravity="center"
++        android:src="@drawable/ic_touch"/>
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="15dp"
++        android:textSize="16sp"
++        android:textStyle="bold"
++        android:layout_gravity="center"
++        android:text="@string/order_in"/>
++
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="30dp"
++        android:layout_marginEnd="30dp"
++        android:layout_marginTop="25dp"
++        android:layout_marginBottom="25dp"
++        android:textSize="14sp"
++        android:gravity="center"
++        android:text="@string/intruksi4"/>
++    
++    <Button
++        android:id="@+id/btn_ambil_order"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:text="@string/ambil"
++        android:textAllCaps="false"
++        android:paddingStart="100dp"
++        android:paddingEnd="100dp"
++        android:textColor="@android:color/white"
++        android:background="@drawable/round_button_primary"/>
++
++    <Button
++        android:id="@+id/btn_cancel_order"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:layout_marginTop="8dp"
++        android:text="@string/ambil"
++        android:textAllCaps="false"
++        android:paddingStart="100dp"
++        android:paddingEnd="100dp"
++        android:background="@drawable/round_button_second"/>
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_form_order_activity.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_form_order_activity.xml	(date 1570328979160)
++++ app/src/main/res/layout/activity_form_order_activity.xml	(date 1570328979160)
+@@ -0,0 +1,84 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    tools:context=".FormOrderActivity">
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:layout_marginStart="15dp"
++        android:layout_marginEnd="15dp"
++        android:orientation="vertical">
++
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/nama"
++            android:layout_marginStart="5dp"
++            android:textStyle="bold"
++            android:textColor="@color/colorText"
++            android:textSize="16sp"/>
++
++        <EditText
++            android:id="@+id/edt_nama"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:padding="8dp"
++            android:background="@drawable/round_edittext"/>
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="8dp"
++        android:layout_marginStart="15dp"
++        android:layout_marginEnd="15dp"
++        android:orientation="vertical">
++
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/berat_cucian"
++            android:layout_marginStart="5dp"
++            android:textStyle="bold"
++            android:textColor="@color/colorText"
++            android:textSize="16sp"/>
++
++        <EditText
++            android:id="@+id/edt_berat_cucian"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:padding="8dp"
++            android:background="@drawable/round_edittext"/>
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="8dp"
++        android:layout_marginStart="15dp"
++        android:layout_marginEnd="15dp"
++        android:orientation="vertical">
++
++        <TextView
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:text="@string/username"
++            android:layout_marginStart="5dp"
++            android:textStyle="bold"
++            android:textColor="@color/colorText"
++            android:textSize="16sp"/>
++
++        <EditText
++            android:id="@+id/edt_username"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:padding="8dp"
++            android:background="@drawable/round_edittext"/>
++    </LinearLayout>
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/view_profile.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_marginStart=\"25dp\"\r\n    android:layout_marginEnd=\"25dp\"\r\n    android:layout_centerInParent=\"true\"\r\n    android:layout_width=\"match_parent\" android:layout_height=\"match_parent\">\r\n\r\n\r\n    <de.hdodenhof.circleimageview.CircleImageView xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n        android:id=\"@+id/profile_image\"\r\n        android:layout_width=\"80dp\"\r\n        android:layout_height=\"80dp\"\r\n        android:layout_above=\"@id/linear_desc\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginBottom=\"-35dp\"\r\n        android:src=\"@drawable/no-image\"\r\n        app:civ_border_color=\"#FF000000\"\r\n        app:civ_border_width=\"2dp\" />\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/linear_desc\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerInParent=\"true\"\r\n        android:orientation=\"vertical\"\r\n        android:background=\"@drawable/round_profile\">\r\n\r\n\r\n        <TextView\r\n            android:id=\"@+id/tv_name\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginTop=\"50dp\"\r\n            android:layout_gravity=\"center\"\r\n            android:textSize=\"18sp\"\r\n            android:textStyle=\"bold\"\r\n            android:text=\"@string/name_profile\"/>\r\n\r\n        <TextView\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginTop=\"8dp\"\r\n            android:layout_marginStart=\"15dp\"\r\n            android:layout_marginEnd=\"15dp\"\r\n            android:textSize=\"14sp\"\r\n            android:textAlignment=\"center\"\r\n            android:textColor=\"@color/colorTextSecond\"\r\n            android:text=\"@string/dummy_address\"/>\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginTop=\"15dp\"\r\n            android:layout_marginBottom=\"8dp\"\r\n            android:layout_marginStart=\"15dp\"\r\n            android:layout_marginEnd=\"15dp\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <LinearLayout\r\n                android:layout_width=\"0dp\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:orientation=\"vertical\"\r\n                android:gravity=\"center\"\r\n                android:layout_weight=\"1\">\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"@string/rating\"\r\n                    android:textStyle=\"bold\"\r\n                    android:textSize=\"16sp\"/>\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"0.0\"\r\n                    android:textSize=\"14sp\"/>\r\n            </LinearLayout>\r\n\r\n            <LinearLayout\r\n                android:layout_width=\"0dp\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:orientation=\"vertical\"\r\n                android:gravity=\"center\"\r\n                android:layout_weight=\"1\">\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"@string/worked\"\r\n                    android:textStyle=\"bold\"\r\n                    android:textSize=\"16sp\"/>\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"0.0\"\r\n                    android:textSize=\"14sp\"/>\r\n            </LinearLayout>\r\n\r\n\r\n            <LinearLayout\r\n                android:layout_width=\"0dp\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:orientation=\"vertical\"\r\n                android:gravity=\"center\"\r\n                android:layout_weight=\"1\">\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"@string/distance\"\r\n                    android:textStyle=\"bold\"\r\n                    android:textSize=\"16sp\"/>\r\n\r\n                <TextView\r\n                    android:layout_width=\"wrap_content\"\r\n                    android:layout_height=\"wrap_content\"\r\n                    android:text=\"0.0\"\r\n                    android:textSize=\"14sp\"/>\r\n            </LinearLayout>\r\n\r\n        </LinearLayout>\r\n\r\n    </LinearLayout>\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/view_profile.xml	(revision 9d9157599a95b82775119c0139b73bdb823e96a5)
++++ app/src/main/res/layout/view_profile.xml	(date 1570330775097)
+@@ -1,36 +1,32 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:layout_marginStart="25dp"
+-    android:layout_marginEnd="25dp"
+     android:layout_centerInParent="true"
+     android:layout_width="match_parent" android:layout_height="match_parent">
+ 
+-
+-    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+-        android:id="@+id/profile_image"
+-        android:layout_width="80dp"
+-        android:layout_height="80dp"
+-        android:layout_above="@id/linear_desc"
+-        android:layout_centerHorizontal="true"
+-        android:layout_marginBottom="-35dp"
+-        android:src="@drawable/no-image"
+-        app:civ_border_color="#FF000000"
+-        app:civ_border_width="2dp" />
+-
+     <LinearLayout
+         android:id="@+id/linear_desc"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
++        android:layout_marginStart="25dp"
++        android:layout_marginEnd="25dp"
+         android:layout_centerInParent="true"
+         android:orientation="vertical"
+         android:background="@drawable/round_profile">
+ 
++        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
++            android:id="@+id/profile_image"
++            android:layout_width="100dp"
++            android:layout_height="100dp"
++            android:src="@drawable/address"
++            android:layout_gravity="center"
++            app:civ_border_color="#FF000000"
++            app:civ_border_width="2dp" />
++
+ 
+         <TextView
+             android:id="@+id/tv_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_marginTop="50dp"
+             android:layout_gravity="center"
+             android:textSize="18sp"
+             android:textStyle="bold"
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">JSON</string>\r\n    <string name=\"verify_phone_number\">Verify your phone number</string>\r\n    <string name=\"intruksi1\">Json akan mengirimakan anda pesan SMS untuk verifikasi nomor handphone anda. Masukan kode negara dan nomer handphone anda</string>\r\n    <string name=\"lanjut\">Lanjut</string>\r\n    <string name=\"profile_info\">Profile Info</string>\r\n    <string name=\"intruksi2\">Silahkan masukan nama, foto profile dan alamat anda</string>\r\n    <string name=\"intruksi3\">Tunggu untuk otomatis mendeteksi kiriman SMS ke</string>\r\n    <string name=\"verify\">Verify</string>\r\n    <string name=\"number_dummy\">+62 895 368578284</string>\r\n    <string name=\"verify_number\">Verifikasi Nomer Anda</string>\r\n    <string name=\"number_wrong\">Nomer Salah ?</string>\r\n    <string name=\"resend_sms\">Resend SMS</string>\r\n    <string name=\"resend_code\">Kirim Ulang Kode</string>\r\n    <string name=\"name_profile\">Name Profile</string>\r\n    <string name=\"dummy_address\">Jl. HS.Ronggo Waluyo, Puseurjaya, Kec. Telukjambe Tim., Kabupaten Karawang, Jawa Barat 41361</string>\r\n    <string name=\"rating\">Rating</string>\r\n    <string name=\"worked\">Worked</string>\r\n    <string name=\"distance\">Distance</string>\r\n    <string name=\"tanyakan_sesuatu\">Tanyakan Sesuatu</string>\r\n    <string name=\"selesai\">Selesai</string>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 9d9157599a95b82775119c0139b73bdb823e96a5)
++++ app/src/main/res/values/strings.xml	(date 1570331129748)
+@@ -19,4 +19,19 @@
+     <string name="distance">Distance</string>
+     <string name="tanyakan_sesuatu">Tanyakan Sesuatu</string>
+     <string name="selesai">Selesai</string>
++    <string name="user_profile">User Profile</string>
++    <string name="mobile_number">Mobile Number</string>
++    <string name="username">User Name</string>
++    <string name="email">Email</string>
++    <string name="edit_profile">Edit Profile</string>
++    <string name="order_in">Hey ada Order !</string>
++    <string name="intruksi4">Anda bisa menyentuh tombol ambil untuk mulai bekerja</string>
++    <string name="ambil">Ambil</string>
++    <string name="nama">Nama</string>
++    <string name="berat_cucian">Berat Cucian</string>
++
++    <!-- TODO: Remove or change this placeholder text -->
++    <string name="hello_blank_fragment">Hello blank fragment</string>
++    <string name="selsai">Selesai</string>
++    <string name="pendapatan">Pendapatan</string>
+ </resources>
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"com.example.json\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity android:name=\".VerifyActivity\"></activity>\r\n        <activity android:name=\".ProfileActivity\" />\r\n        <activity android:name=\".SplashActivity\" />\r\n        <activity android:name=\".LoginActivity\" />\r\n        <activity android:name=\".MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision 9d9157599a95b82775119c0139b73bdb823e96a5)
++++ app/src/main/AndroidManifest.xml	(date 1570328747285)
+@@ -9,7 +9,9 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme">
+-        <activity android:name=".VerifyActivity"></activity>
++        <activity android:name=".FormOrderActivity"></activity>
++        <activity android:name=".EditProfileActivity" />
++        <activity android:name=".VerifyActivity" />
+         <activity android:name=".ProfileActivity" />
+         <activity android:name=".SplashActivity" />
+         <activity android:name=".LoginActivity" />
+Index: app/src/main/java/com/example/json/FormOrderActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/json/FormOrderActivity.java	(date 1570328747488)
++++ app/src/main/java/com/example/json/FormOrderActivity.java	(date 1570328747488)
+@@ -0,0 +1,13 @@
++package com.example.json;
++
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++
++public class FormOrderActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_form_order_activity);
++    }
++}
+Index: app/src/main/res/layout/fragment_home_kurir.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_home_kurir.xml	(date 1570331332635)
++++ app/src/main/res/layout/fragment_home_kurir.xml	(date 1570331332635)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="utf-8"?>
++<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    tools:context=".Fragment.HomeKurirFragment">
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:orientation="vertical">
++
++       <ImageView
++           android:layout_width="match_parent"
++           android:layout_height="wrap_content"
++           android:layout_gravity="center"
++           android:src="@drawable/ic_offline"/>
++
++        <include
++            android:layout_height="wrap_content"
++            android:layout_width="wrap_content"
++            android:layout_marginTop="15dp"
++            layout="@layout/view_profile"/>
++
++        <include
++            android:layout_height="wrap_content"
++            android:layout_width="wrap_content"
++            layout="@layout/view_salary"/>
++    </LinearLayout>
++
++</FrameLayout>
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\n\r\nandroid {\r\n    compileSdkVersion 28\r\n    defaultConfig {\r\n        applicationId \"com.example.json\"\r\n        minSdkVersion 19\r\n        targetSdkVersion 28\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n        testInstrumentationRunner \"android.support.test.runner.AndroidJUnitRunner\"\r\n    }\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n}\r\n\r\ndependencies {\r\n    implementation fileTree(dir: 'libs', include: ['*.jar'])\r\n    implementation 'com.android.support:appcompat-v7:28.0.0'\r\n    implementation 'com.android.support.constraint:constraint-layout:1.1.3'\r\n\r\n    implementation 'com.android.support:cardview-v7:28.0.0'\r\n    implementation 'com.android.support:recyclerview-v7:28.0.0'\r\n\r\n    implementation 'de.hdodenhof:circleimageview:3.0.1'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'com.android.support.test:runner:1.0.2'\r\n    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision 9d9157599a95b82775119c0139b73bdb823e96a5)
++++ app/build.gradle	(date 1570329417744)
+@@ -27,6 +27,7 @@
+     implementation 'com.android.support:recyclerview-v7:28.0.0'
+ 
+     implementation 'de.hdodenhof:circleimageview:3.0.1'
++    implementation 'com.android.support:support-v4:28.0.0'
+     testImplementation 'junit:junit:4.12'
+     androidTestImplementation 'com.android.support.test:runner:1.0.2'
+     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n<<<<<<< HEAD\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n=======\r\n    <mapping directory=\"\" vcs=\"Git\" />\r\n>>>>>>> d8aed162003107a6a239f6749f9aaf7a78b6c25c\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 9d9157599a95b82775119c0139b73bdb823e96a5)
++++ .idea/vcs.xml	(date 1570326270948)
+@@ -1,10 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-<<<<<<< HEAD
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-=======
+-    <mapping directory="" vcs="Git" />
+->>>>>>> d8aed162003107a6a239f6749f9aaf7a78b6c25c
+   </component>
+ </project>
+\ No newline at end of file
+Index: app/src/main/java/com/example/json/Fragment/HomeKurirFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/json/Fragment/HomeKurirFragment.java	(date 1570329419525)
++++ app/src/main/java/com/example/json/Fragment/HomeKurirFragment.java	(date 1570329419525)
+@@ -0,0 +1,30 @@
++package com.example.json.Fragment;
++
++
++import android.os.Bundle;
++import android.support.v4.app.Fragment;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++
++import com.example.json.R;
++
++/**
++ * A simple {@link Fragment} subclass.
++ */
++public class HomeKurirFragment extends Fragment {
++
++
++    public HomeKurirFragment() {
++        // Required empty public constructor
++    }
++
++
++    @Override
++    public View onCreateView(LayoutInflater inflater, ViewGroup container,
++                             Bundle savedInstanceState) {
++        // Inflate the layout for this fragment
++        return inflater.inflate(R.layout.fragment_home_kurir, container, false);
++    }
++
++}
