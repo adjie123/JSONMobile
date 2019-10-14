@@ -11,7 +11,7 @@
             android:id="@+id/img_laundry"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/no-image"/>
+            android:src="@drawable/no_image"/>
 
         <TextView
             android:id="@+id/tv_name_laundry"

@@ -19,4 +19,18 @@
     <string name="distance">Distance</string>
     <string name="tanyakan_sesuatu">Tanyakan Sesuatu</string>
     <string name="selesai">Selesai</string>
+    <string name="user_profile">User Profile</string>
+    <string name="username">Username</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="nama">Nama</string>
+    <string name="berat_cucian">Berat Cucian</string>
+    <string name="order_in">Hey ada Order !</string>
+    <string name="intruksi4">Anda bisa menyentuh tombol ambil untuk mulai bekerja</string>
+    <string name="ambil">Ambil !</string>
+    <string name="lain_kali">Lain Kali</string>
+    <string name="selsai">Selesai</string>
+    <string name="pendapatan">Pendapatan</string>
+    <string name="name_laundry">Nama Laundry</string>
 </resources>

@@ -38,7 +38,7 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/photo-camera"/>
+            android:src="@drawable/photo_camera"/>
 
         <EditText
             android:id="@+id/edt_name_profile"
